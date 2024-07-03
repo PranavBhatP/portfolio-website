@@ -39,7 +39,7 @@ export default function Home() {
           Hey There!<span className="text-xl">👋</span>. I&apos;m a 19-year-old student, currently pursuing my B.Tech in Information Technology @ <b>National Institute of Technology, Karnataka</b>.
         </p>
         <p className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
-          Currently delving deep into AI/ML models and RAG applications using Langchain. On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript NextJS and Tailwind CSS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
+          Currently delving into AI/ML models and DSA. On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript NextJS and Tailwind CSS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
         </p>
       </section>
       <section className="flex flex-row w-full gap-x-5">
