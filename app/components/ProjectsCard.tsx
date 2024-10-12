@@ -37,6 +37,11 @@ export default function ProjectsCard({}: Props) {
             <p className="text-white text-sm">University course management software built with the MERN Stack.</p>
             <p className="text-white text-xs">Skills: React, MongoDB, ExpressJS, NodeJS</p>
         </section>
+        <section className="p-6 hover:scale-105 hover:duration-500 w-64 gap-y-3 flex flex-col border rounded-lg border-gray-500">
+            <h4 className="text-lg font-bold hover:underline" style= {{color: "#D4D4D4"}}><a href="https://github.com/PranavBhatP/CourseLite/tree/master" target = "_blank">Mage.ai<span>&#8599;</span></a></h4>
+            <p className="text-white text-sm">2K~4K image enhancer using state-of-the-art ESRGANs</p>
+            <p className="text-white text-xs">Skills: Next.js, TailwindCSS, PyTorch, FastAPI, GANs</p>
+        </section>
     </>
   )
 }
