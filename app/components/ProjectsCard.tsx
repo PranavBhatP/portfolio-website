@@ -45,7 +45,7 @@ export default function ProjectsCard({}: Props) {
         <section className="p-6 hover:scale-105 hover:duration-500 w-64 gap-y-3 flex flex-col border rounded-lg border-gray-500">
             <h4 className="text-lg font-bold hover:underline" style= {{color: "#D4D4D4"}}><a href="https://devfolio.co/projects/zkonnect-119f" target = "_blank">zKonnect<span>&#8599;</span></a></h4>
             <p className="text-white text-sm">Securing the future of ticketing, with zKProofs and zkSNARKs. </p>
-            <p className="text-white text-xs flex flex-col gap-y-2">Skills: Next.js, TailwindCSS, Solidity, Hardhat, The Graph, CDP, Scaffold-ETH2, zkEVM, Circom, Snark.js<span className ="bg-gray-500 w-auto text-gray-300 rounded-md px-1">Winner at ETHIndia'24&#127881;</span></p>
+            <p className="text-white text-xs flex flex-col gap-y-2">Skills: Next.js, TailwindCSS, Solidity, Hardhat, The Graph, CDP, Scaffold-ETH2, zkEVM, Circom, Snark.js<span className ="bg-gray-500 w-auto text-gray-300 rounded-md px-1">Winner at ETHIndia&apos;24&#127881;</span></p>
         </section>
     </>
   )
