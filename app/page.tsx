@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import { Kanit } from 'next/font/google';
-import { FaReact, FaGitAlt, FaBootstrap, FaNodeJs, FaHtml5, FaCss3, FaPython, FaFlask, FaFileDownload, FaHardHat} from "react-icons/fa";
+import { FaReact, FaGitAlt, FaBootstrap, FaNodeJs, FaHtml5, FaCss3, FaPython, FaFlask, FaFileDownload, FaHardHat, FaEthereum} from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { AiFillRedditCircle } from "react-icons/ai";
@@ -210,9 +210,9 @@ export default function Home() {
             </span>
           </div>
           <div className="relative group">
-            <SiSolidity className="text-white text-3xl hover:text-gray-500"/>
+            <FaEthereum className="text-white text-3xl hover:text-blue-300"/>
             <span className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            Solidity
+            Ethereum
             </span>
           </div>
           <p className="text-sm text-white pt-3 italic">and many more to come.. :)</p>
