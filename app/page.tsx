@@ -14,6 +14,7 @@ import dynamic from 'next/dynamic';
 import ProjectsCard from './components/ProjectsCard';
 import DSACard from './components/DSACard';
 import { PiDownloadSimple, PiDownloadSimpleThin } from 'react-icons/pi';
+import BlogsCard from './components/BlogsCard';
 
 const kanit = Kanit({
   weight: '500',
@@ -31,15 +32,15 @@ export default function Home() {
       <section className="flex flex-col w-full">
         <h1 className={kanit.className} style={{ fontSize: '60px', color: "#D4D4D4" }}>Pranav Bhat P</h1>
         <div className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
-          <span>19M, Student | Bangalore, Karnataka, India | </span><NoSsrClock />
+          <span>20M, Student | Bangalore, Karnataka, India | </span><NoSsrClock />
         </div>
       </section>
       <section className="flex flex-col w-full gap-y-5">
         <p className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
-          Hey There!<span className="text-xl">👋</span>. I&apos;m a 19-year-old student, currently pursuing my B.Tech in Information Technology @ <b>National Institute of Technology, Karnataka</b>.
+          Hey There!<span className="text-xl">👋</span>. I&apos;m a 20-year-old student, currently pursuing my B.Tech in Information Technology @ <b>National Institute of Technology, Karnataka</b>.
         </p>
         <p className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
-          Currently delving into AI/ML models and DSA. On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript NextJS and Tailwind CSS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
+          Currently delving into AI/ML models, DSA and actively contributing to Open Source. On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript and NextJS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
         </p>
       </section>
       <section className="flex flex-row w-full gap-x-5">
@@ -233,6 +234,12 @@ export default function Home() {
           >
             DSA
           </button>
+          <button 
+            className={`w-36 px-4 py-2 transition-colors duration-500 ${activeTab === 'Blogs' ? 'border-b border-white' : 'border-b border-gray-700'} text-white`}
+            onClick={() => setActiveTab('Blogs')}
+          >
+            Blogs
+          </button>
         </div>
         <div className="flex gap-6 flex-wrap w-full">
           {activeTab === 'Projects' && (
@@ -243,6 +250,11 @@ export default function Home() {
           {activeTab === 'DSA' && (
             <>
               <DSACard/>
+            </>
+          )}
+          {activeTab === 'Blogs' && (
+            <>
+              <BlogsCard/>
             </>
           )}
         </div>
