@@ -67,7 +67,7 @@ export default function BlogsCard() {
               href="https://medium.com/@pranavbhat2004/the-future-of-digital-event-management-with-zkproofs-and-zksnarks-an-insight-into-the-on-chain-ea127db5fa20"
               target="_blank"
             >
-              Documenting my ETHIndia'24 Prize Winning Project{" "}
+              Documenting my ETHIndia&apos;24 Prize Winning Project{" "}
               <span>&#8599;</span>
             </a>
           </h4>
