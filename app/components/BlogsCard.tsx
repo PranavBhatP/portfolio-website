@@ -50,6 +50,42 @@ export default function BlogsCard() {
         {/* Profile Picture */}
         <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-gray-300 relative">
           <Image
+            src="/portfolio-website/multimodal_ml.png"
+            alt="Profile"
+            fill={true}
+            className="object-cover"
+          />
+        </div>
+        
+        {/* Text Content */}
+        <div className="flex flex-col mt-4 md:mt-0 md:ml-6 text-center md:text-left">
+          <h4
+            className="text-lg font-bold hover:underline"
+            style={{ color: "#D4D4D4" }}
+          >
+            <a
+              href="https://webclub.nitk.ac.in/blogs/18"
+              target="_blank"
+            >
+              MultiModal Magic: Integrating Diverse Data for Smarter AI systems
+              <span>&#8599;</span>
+            </a>
+          </h4>
+          <p className="text-white text-sm">Oct 23, 2024</p>
+          <div className="pt-4 gap-y-1 flex flex-col">
+            <p className="text-white text-sm">
+              A simple blog about the emerging field of Multimodal ML, demonstrating a hands on project.
+            </p>
+            <p className="text-white flex-col flex text-xs gap-y-1">
+              Topics: ML, DL, PyTorch, BERT, ResNET50
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="p-6 hover:duration-500 hover:scale-105 w-full flex flex-col md:flex-row items-center border rounded-lg border-gray-500">
+        {/* Profile Picture */}
+        <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-gray-300 relative">
+          <Image
             src="/portfolio-website/profile.png"
             alt="Profile"
             fill={true}
