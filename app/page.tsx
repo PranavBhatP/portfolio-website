@@ -7,7 +7,7 @@ import { FaReact, FaGitAlt, FaBootstrap, FaNodeJs, FaHtml5, FaCss3, FaPython, Fa
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { AiFillRedditCircle } from "react-icons/ai";
-import { SiSolidity, SiVite, SiTypescript, SiTensorflow, SiScikitlearn, SiMongodb, SiExpress, SiCplusplus, SiPandas, SiNumpy, SiFlask, SiPrisma, SiMui, SiDocker, SiPytorch } from "react-icons/si";
+import { SiSolidity, SiVite, SiTypescript, SiTensorflow, SiScikitlearn, SiMongodb, SiExpress, SiCplusplus, SiPandas, SiNumpy, SiFlask, SiPrisma, SiMui, SiDocker, SiPytorch, SiLightning } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { CiMail, CiPhone } from "react-icons/ci";
 import dynamic from 'next/dynamic';
@@ -214,6 +214,12 @@ export default function Home() {
             <FaEthereum className="text-white text-3xl hover:text-blue-300"/>
             <span className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Ethereum
+            </span>
+          </div>
+          <div className="relative group">
+            <SiLightning className="text-white text-3xl hover:text-purple-400"/>
+            <span className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            PyTorch Lightning
             </span>
           </div>
           <p className="text-sm text-white pt-3 italic">and many more to come.. :)</p>
