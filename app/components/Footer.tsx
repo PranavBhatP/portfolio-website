@@ -8,10 +8,10 @@ const kanit = Kanit({
 
 export default function Footer() {
   return (
-    <footer className='flex lg:flex-row flex-col w-full p-5 lg:justify-between justify-center items-center'>
+    <footer className='flex lg:flex-row flex-col w-full p-5 lg:justify-between lg:text-sm text-xs justify-center items-center text-center'>
         <p className = {kanit.className} style = {{color: "gray"}}>Made with NextJS + TypeScript + Tailwind CSS </p>
-        <p className = {kanit.className} style = {{color: "gray"}}>GitHub Repo</p>
-        <p className = {kanit.className} style = {{color: "gray"}}>Pranav Bhat P - 2024</p>
+        <p className = {kanit.className} style = {{color: "gray"}}><a href="https://github.com/PranavBhatP/portfolio-website" target="_blank">GitHub Repo<span>&#8599;</span></a></p>
+        <p className = {kanit.className} style = {{color: "gray"}}>Last Updated - March 2025</p>
     </footer>
   )
 }
