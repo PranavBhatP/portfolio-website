@@ -43,7 +43,7 @@ export default function Home() {
           Delving into algorithms and actively contributing to open source technologies. Building for <b>sktime</b> under the <b>European Summer of Code, 2025.</b>
         </p>
         <p className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
-          Delving into algorithms and actively contributing to open source technologies. On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript and NextJS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
+          On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript and NextJS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
         </p>
       </section>
       <section className="flex flex-row w-full gap-x-5">
