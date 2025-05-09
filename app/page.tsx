@@ -40,7 +40,10 @@ export default function Home() {
           Hey There!<span className="text-xl">👋</span>. I&apos;m a 20-year-old student, currently pursuing my B.Tech in Information Technology @ <b>National Institute of Technology, Karnataka</b>.
         </p>
         <p className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
-          Currently delving into AI/ML models, DSA and actively contributing to Open Source. On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript and NextJS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
+          Delving into algorithms and actively contributing to open source technologies. Building for <b>sktime</b> under the <b>European Summer of Code, 2025.</b>
+        </p>
+        <p className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
+          Delving into algorithms and actively contributing to open source technologies. On the side, I also dabble in Full Stack Development including technologies like the MERN Stack, TypeScript and NextJS. Apart from coding, I take deep interest in the happenings of the world and the latest in tech...
         </p>
       </section>
       <section className="flex flex-row w-full gap-x-5">
