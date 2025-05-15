@@ -1,9 +1,9 @@
 'use client'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import { Kanit } from 'next/font/google';
-import { FaReact, FaGitAlt, FaBootstrap, FaNodeJs, FaHtml5, FaCss3, FaPython, FaFlask, FaFileDownload, FaHardHat, FaEthereum} from "react-icons/fa";
+import { FaReact, FaGitAlt, FaBootstrap, FaNodeJs, FaHtml5, FaCss3, FaPython, FaFlask, FaFileDownload, FaHardHat, FaEthereum } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { AiFillRedditCircle } from "react-icons/ai";
@@ -15,6 +15,7 @@ import ProjectsCard from './components/ProjectsCard';
 import DSACard from './components/DSACard';
 import { PiDownloadSimple, PiDownloadSimpleThin } from 'react-icons/pi';
 import BlogsCard from './components/BlogsCard';
+import { FaXTwitter, FaMedium } from 'react-icons/fa6';
 
 const kanit = Kanit({
   weight: '500',
@@ -26,9 +27,14 @@ const NoSsrClock = dynamic(() => import('./components/TimeClock'), { ssr: false 
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('Projects');
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
 
   return (
-    <main className="flex lg:w-3/5 mx-auto flex-col items-center lg:my-36 w-5/6 my-20 lg:p-2 mx-auto gap-y-10 rounded-lg ">
+    <main className={`flex lg:w-3/5 mx-auto flex-col items-center lg:my-36 w-5/6 my-20 lg:p-2 mx-auto gap-y-10 rounded-lg ${isLoaded ? 'fade-in' : 'content-hidden'}`}>
       <section className="flex flex-col w-full">
         <h1 className={kanit.className} style={{ fontSize: '60px', color: "#D4D4D4" }}>Pranav Bhat P</h1>
         <div className="text-gray-500 text-sm" style={{ color: "#D4D4D4" }}>
@@ -53,11 +59,11 @@ export default function Home() {
         <Link href="https://www.linkedin.com/in/pranav-bhat-966003195/" target="_blank">
           <FiLinkedin className="text-white text-lg" />
         </Link>
-        <Link href="https://www.instagram.com/_pranav35_/" target="_blank">
-          <FiInstagram className="text-white text-lg" />
+        <Link href="https://x.com/PranavBhat333" target="_blank">
+          <FaXTwitter className="text-white text-lg" />
         </Link>
-        <Link href="https://www.reddit.com/user/DeshBhaktPB/" target="_blank">
-          <AiFillRedditCircle className="text-white text-lg" />
+        <Link href="https://medium.com/@pranavbhat2004" target="_blank">
+          <FaMedium className="text-white text-lg" />
         </Link>
       </section>
       <section className="flex flex-col w-full">

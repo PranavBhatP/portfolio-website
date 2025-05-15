@@ -41,5 +41,23 @@ body.dark-mode {
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.content-hidden {
+  opacity: 0;
+}
+
 
 
