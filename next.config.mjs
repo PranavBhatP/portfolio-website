@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: "/",
+    basePath: "",
     reactStrictMode: true,
     trailingSlash: true,
     // Remove output: "export" to enable dynamic routes and Sanity CMS
