@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 import { Kanit } from 'next/font/google'
 
 const kanit = Kanit({
@@ -117,6 +118,17 @@ export default function BlogsCard() {
             </p>
           </div>
         </div>
+      </section>
+      
+      {/* Link to view all blogs */}
+      <section className="w-full flex justify-center mt-6">
+        <Link 
+          href="/blogs"
+          className="px-6 py-3 border border-gray-500 rounded-lg text-white hover:bg-gray-800 transition-colors duration-300 text-center"
+          style={{ color: "#D4D4D4" }}
+        >
+          View All Blog Posts
+        </Link>
       </section>
     </>
   )
