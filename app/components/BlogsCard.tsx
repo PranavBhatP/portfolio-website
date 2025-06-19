@@ -15,7 +15,7 @@ export default function BlogsCard() {
         {/* Profile Picture */}
         <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-gray-300 relative">
           <Image
-            src="/portfolio-website/profile.png"
+            src="profile.png"
             alt="Profile"
             fill={true}
             className="object-cover"
@@ -51,7 +51,7 @@ export default function BlogsCard() {
         {/* Profile Picture */}
         <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-gray-300 relative">
           <Image
-            src="/portfolio-website/multimodal_ml.png"
+            src="multimodal_ml.png"
             alt="Profile"
             fill={true}
             className="object-cover"
@@ -87,7 +87,7 @@ export default function BlogsCard() {
         {/* Profile Picture */}
         <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden bg-gray-300 relative">
           <Image
-            src="/portfolio-website/profile.png"
+            src="/profile.png"
             alt="Profile"
             fill={true}
             className="object-cover"

@@ -122,8 +122,10 @@ export async function generateStaticParams() {
   }
 }
 
+export const revalidate = 60; // Revalidate every 60 seconds
+
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  // Fetch post data server-side at build time
+  // Fetch post data with revalidation for dynamic updates
   let post: BlogPost | null = null;
   
   try {

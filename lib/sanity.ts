@@ -4,7 +4,7 @@ import imageUrlBuilder from '@sanity/image-url'
 export const client = createClient({
   projectId: '75q7mk6w',
   dataset: 'production',
-  useCdn: true, // Set to false if statically generating pages, using ISR or tag-based revalidation
+  useCdn: false, // Set to false for dynamic content updates and ISR
   apiVersion: '2024-01-01', // Use current date (YYYY-MM-DD) to target the latest API version
 })
 

@@ -21,7 +21,7 @@ const externalBlogsData = [
     date: "Oct 23, 2024",
     description: "A blog documenting my hands-on experience with ESRGANs",
     topics: "DL, GAN, Image Processing",
-    imageUrl: "/portfolio-website/profile.png",
+    imageUrl: "/profile.png",
     link: "https://medium.com/@pranavbhat2004/image-enhancer-website-generate-stunning-images-with-esrgans-4177c623df27"
   },
   {
@@ -30,7 +30,7 @@ const externalBlogsData = [
     date: "Oct 23, 2024",
     description: "A simple blog about the emerging field of Multimodal ML, demonstrating a hands on project.",
     topics: "ML, DL, PyTorch, BERT, ResNET50",
-    imageUrl: "/portfolio-website/multimodal_ml.png",
+    imageUrl: "/multimodal_ml.png",
     link: "https://webclub.nitk.ac.in/blogs/18"
   },
   {
@@ -39,7 +39,7 @@ const externalBlogsData = [
     date: "Oct 23, 2024",
     description: "This blog documents the thought-process of my hackathon team and the overall implementation of a Web3 hackathon project.",
     topics: "Hackathons, Web3, Cryptography, zkProofs",
-    imageUrl: "/portfolio-website/profile.png",
+    imageUrl: "/profile.png",
     link: "https://medium.com/@pranavbhat2004/the-future-of-digital-event-management-with-zkproofs-and-zksnarks-an-insight-into-the-on-chain-ea127db5fa20"
   }
 ];
